@@ -13,7 +13,7 @@ This project used Python to parse a CSV file containing information for votes ca
 8. County with the highest proportion of the total votes
 
 
-[The script](./PyPoll.py) was written to print this information to terminal and to an [output text file](./analysis/election_analysis.txt).
+[The script](./PyPoll_Challenge.py) was written to print this information to terminal and to an [output text file](./analysis/election_analysis.txt).
 
 ## Resources
 - Data Source: [election_results.csv](./Resources/election_results.csv)
@@ -66,5 +66,5 @@ quorum = 1000
 if total_votes < quorum:
     no_quorum_warning = "There weren't enough votes to obtain a quorum!"
     print(no_quorum_warning)
-    txt.file.write(no_quorum_warning)
+    txt_file.write(no_quorum_warning)
 ```
