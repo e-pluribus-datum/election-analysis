@@ -34,7 +34,7 @@ This project used Python to parse a CSV file containing information for votes ca
 
 <!-- start new numbered list -->
 
-5. **Diana DeGette** won the election with 73.8% of the votes.
+5. **Diana DeGette** won the election with 272,892 (73.8%) of the votes.
 
 6. \- 7. are tabulated below:
 
